@@ -24,7 +24,7 @@ Please type
 . Here, 
 <ul>
   <li>feature: a numpy array (# of training samples x # of dimensions).</li>
-  <li>label: a numpy array including label information (# of training samples x 1; elements must be nonnegative integers).<li>
+  <li>label: a numpy array including label information (# of training samples x 1; elements must be nonnegative integers).</li>
 </ul>
 The output array (predictedLabel) contains predictions by SOLR.
 
