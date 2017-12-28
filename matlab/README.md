@@ -1,8 +1,8 @@
 # Core fucntions & demo codes
-・SOLRtrain.m: A function for SOLR model training.
-・SOLRpredict.m: A function for prediction.
-・demoSOLR_20171227.m: Demo code of SOLR.
-・demoComp_SOLRvsSLRvsSLiR_20171227.m: Demo comparison across prediction methods.
+..SOLRtrain.m: A function for SOLR model training.
+..SOLRpredict.m: A function for prediction.
+..demoSOLR_20171227.m: Demo code of SOLR.
+..demoComp_SOLRvsSLRvsSLiR_20171227.m: Demo comparison across prediction methods.
 
 # How to use
 After adding “subfunction” folder to the MATLAB path, please type
