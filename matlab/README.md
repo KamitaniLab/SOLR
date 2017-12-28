@@ -18,7 +18,7 @@ https://www.biorxiv.org/content/early/2017/12/22/238758.
 After adding “subfunction” folder to the MATLAB path, please type
 ```
 >> model = SOLRtrain(feature,label);
->> predicted = SOLRpredict(feature,model);
+>> predictedLabel = SOLRpredict(feature,model);
 ```
 . Here, 
 <ul>
