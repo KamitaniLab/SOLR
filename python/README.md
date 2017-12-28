@@ -31,3 +31,4 @@ The output array (predictedLabel) contains predictions by SOLR.
 ## Demonstration
 demoComp_SOLRvsSLRvsSLiR_20171227.py <br>
 [Output figure from demo code]
+<img src="figure_1.png">
