@@ -18,8 +18,8 @@ Please type
 ```
 >> import SOLR
 >> solr = SOLR.SOLR()
->> solr.fit(feature,label);
->> predictedLabel = solr.predict(feature,model);
+>> solr.fit(feature,label)
+>> predictedLabel = solr.predict(feature,model)
 ```
 . Here, 
 <ul>
