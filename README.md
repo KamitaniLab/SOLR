@@ -1,4 +1,4 @@
-# SOLR
+# Sparse Ordinal Logistic Regression
 Matlab and Python library for sparse ordinal logistic regression (SOLR).
 
 
