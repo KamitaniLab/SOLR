@@ -8,11 +8,9 @@
 
 # How to use
 After adding “subfunction” folder to the MATLAB path, please type
-
 ```
 >> model = SOLRtrain(feature,label);
 >> predicted = SOLRpredict(feature,model);
-
 ```
 . Here, 
 <ul>
