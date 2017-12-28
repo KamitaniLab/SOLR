@@ -13,11 +13,13 @@ model = SOLRtrain(feature,label);
 predicted = SOLRpredict(feature,model);
 .
 Here, 
-・feature: a matrix (# of training samples x # of dimensions).
-・label: a vector including label information (# of training samples x 1; elements must be natural numbers).
+<ul>
+  <li>feature: a matrix (# of training samples x # of dimensions).</li>
+  <li>label: a vector including label information (# of training samples x 1; elements must be natural numbers).</li>
+</ul>
 “model” contains the parameters after model training, 
 and SOLRpredict returns predictions based on it.
 
-#Demonstration
+# Demonstration
 demoComp_SOLRvsSLRvsSLiR_20171227.m
-[ここにデモコードででてくるfigureを貼り付ける。]
+[Output figure from demo code]
