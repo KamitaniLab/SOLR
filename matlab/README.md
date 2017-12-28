@@ -31,3 +31,4 @@ and SOLRpredict returns predictions based on it.
 ## Demonstration
 demoComp_SOLRvsSLRvsSLiR_20171227.m <br>
 [Output figure from demo code]
+<img src="figure_1.png">
