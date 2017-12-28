@@ -1,4 +1,12 @@
-# Core fucntions & demo codes
+# MATLAB implementation of SOLR
+Sparse ordinal logistic regression (SOLR) is a machine learning algorithm to predict ordinal variables.
+This repository provides a MATLAB implementation of SOLR.
+For the details of the algorithm, please see <br>
+Sparse ordinal logistic regression and its application to brain decoding.
+Emi Satake, Kei Majima, Shuntaro Aoki, Yukiyasu Kamitani. 2017.
+https://www.biorxiv.org/content/early/2017/12/22/238758
+
+## Core fucntions & demo codes
 <ul>
   <li>SOLRtrain.m: A function for SOLR model training.</li>
   <li>SOLRpredict.m: A function for prediction.</li>
@@ -6,7 +14,7 @@
   <li>demoComp_SOLRvsSLRvsSLiR_20171227.m: Demo comparison across prediction methods.</li>
 </ul>
 
-# How to use
+## How to use
 After adding “subfunction” folder to the MATLAB path, please type
 ```
 >> model = SOLRtrain(feature,label);
@@ -20,6 +28,6 @@ After adding “subfunction” folder to the MATLAB path, please type
 “model” contains the parameters after model training, 
 and SOLRpredict returns predictions based on it.
 
-# Demonstration
+## Demonstration
 demoComp_SOLRvsSLRvsSLiR_20171227.m <br>
 [Output figure from demo code]
