@@ -9,10 +9,12 @@
 # How to use
 After adding “subfunction” folder to the MATLAB path, please type
 
-model = SOLRtrain(feature,label);
-predicted = SOLRpredict(feature,model);
-.
-Here, 
+```
+>> model = SOLRtrain(feature,label);
+>> predicted = SOLRpredict(feature,model);
+
+```
+. Here, 
 <ul>
   <li>feature: a matrix (# of training samples x # of dimensions).</li>
   <li>label: a vector including label information (# of training samples x 1; elements must be natural numbers).</li>
