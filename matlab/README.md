@@ -11,7 +11,7 @@ https://www.biorxiv.org/content/early/2017/12/22/238758.
   <li>SOLRtrain.m: A function for SOLR model training.</li>
   <li>SOLRpredict.m: A function for prediction.</li>
   <li>demoSOLR_20171227.m: Demo code of SOLR.</li>
-  <li>demoComp_SOLRvsSLRvsSLiR_20171227.m: Demo comparison across prediction methods.</li>
+  <li>demoComp_SOLRvsSMLRvsSLiR_20171227.m: Demo comparison across prediction methods.</li>
 </ul>
 
 ## How to use
@@ -29,6 +29,6 @@ After adding “subfunction” folder to the MATLAB path, please type
 and SOLRpredict returns predictions based on it.
 
 ## Demonstration
-demoComp_SOLRvsSLRvsSLiR_20171227.m <br>
+demoComp_SOLRvsSMLRvsSLiR_20171227.m <br>
 [Output figure from demo code]
-<img src="figure_1.png">
+<img src="figDemoComp_SOLRvsSMLRvsSLiR_20171227.png">
