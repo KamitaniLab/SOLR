@@ -10,7 +10,7 @@ https://www.biorxiv.org/content/early/2017/12/22/238758.
 <ul>
   <li>SOLR.py: A function for model training and prediction.</li>
   <li>demoSOLR_20171227.py: Demo code of SOLR.</li>
-  <li>demoComp_SOLRvsSLRvsSLiR_20171227.py: Demo comparison across prediction methods.</li>
+  <li>demoComp_SOLRvsSMLRvsSLiR_20171227.py: Demo comparison across prediction methods.</li>
 </ul>
 
 ## How to use
@@ -29,5 +29,5 @@ Please type
 The output array (predictedLabel) contains predictions by SOLR.
 
 ## Demonstration
-demoComp_SOLRvsSLRvsSLiR_20171227.py <br>
+demoComp_SOLRvsSMLRvsSLiR_20171227.py <br>
 <img src="figDemoComp_SOLRvsSMLRvsSLiR_20171227.png">
