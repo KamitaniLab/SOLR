@@ -64,7 +64,9 @@ score4SOLR=(sum(predictedLabel_solr==label)./length(predictedLabel_solr)).*100;
 
 %plot the weights obtained
 subplot(2,2,3)
-bar(model.beta)
+weight=zeros(1,size(feature,2));
+weight(model.effectiveDim)=model.beta;
+bar(weight)
 xlabel('Feature dimensions','FontSize',FontSize)
 ylabel('Weight value','FontSize',FontSize)
 set(gca,'XTick',[1 20:20:numFeatureDims],'FontSize',FontSize)
