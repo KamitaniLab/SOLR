@@ -2,9 +2,8 @@
 Sparse ordinal logistic regression (SOLR) is a machine learning algorithm to predict ordinal variables. <br>
 This repository provides a MATLAB implementation of SOLR. <br> <br>
 For the details of the algorithm, please see <br> <br>
-Sparse ordinal logistic regression and its application to brain decoding. <br>
-Emi Satake, Kei Majima, Shuntaro Aoki, Yukiyasu Kamitani. 2017. <br>
-https://www.biorxiv.org/content/early/2017/12/22/238758.
+
+Satake, E., Majima, K., Aoki, S.C., and Kamitani, Y. (2018). Sparse Ordinal Logistic Regression and Its Application to Brain Decoding. Frontiers in Neuroinformatics. <https://doi.org/10.3389/fninf.2018.00051>
 
 ## Core fucntions & demo codes
 <ul>
