@@ -95,8 +95,20 @@ for nlearning = 1 : Nlearn
    %%
    %% W-step 
    %%
-   option = optimset('Gradobj','on','Hessian','on',...
-       'MaxIter', WMaxIter, 'Display', WDisplay);
+   %checking matlab version if >=2018 keep use trust-region algorithm
+   %also checking if parallel pool is active, then use it
+   vers=version;ver=strrep(vers,'.','');ve=ver(1:2);v=str2num(ve);
+   p = gcp('nocreate');
+   if (v >= 94) && (~isempty(p))
+       option = optimset('Gradobj','on','Hessian','on',...
+           'MaxIter', WMaxIter, 'Display', WDisplay,'Algorithm','trust-region','UseParallel',true);
+   elseif (v >= 94) && (isempty(p))
+       option = optimset('Gradobj','on','Hessian','on',...
+           'MaxIter', WMaxIter, 'Display', WDisplay,'Algorithm','trust-region');
+   else
+       option = optimset('Gradobj','on','Hessian','on',...
+           'MaxIter', WMaxIter, 'Display', WDisplay);
+   end
         
    [w_eff,f,eflag,output,g,H]=fminunc(hfun, w0_eff, option,...
        label, ax_eff, X_eff);
