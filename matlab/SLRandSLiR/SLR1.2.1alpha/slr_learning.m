@@ -99,10 +99,10 @@ for nlearning = 1 : Nlearn
    %also checking if parallel pool is active, then use it
    vers=version;ver=strrep(vers,'.','');ve=ver(1:2);v=str2num(ve);
    p = gcp('nocreate');
-   if (d >= 94) && (~isempty(p))
+   if (v >= 94) && (~isempty(p))
        option = optimset('Gradobj','on','Hessian','on',...
            'MaxIter', WMaxIter, 'Display', WDisplay,'Algorithm','trust-region','UseParallel',true);
-   elseif (d >= 94) && (isempty(p))
+   elseif (v >= 94) && (isempty(p))
        option = optimset('Gradobj','on','Hessian','on',...
            'MaxIter', WMaxIter, 'Display', WDisplay,'Algorithm','trust-region');
    else
